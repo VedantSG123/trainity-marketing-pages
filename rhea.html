@@ -185,6 +185,57 @@
             </div>
             
         </div>
+<section>
+          <div class="w3-bar w3-black">
+           <div class="w3-bar-item w3-div title Projects & Tasks active-bar" onclick="openCity('Projects & Tasks')"> Projects & Tasks</div>
+            <div class="w3-bar-item w3-div title Chat" onclick="openCity('Chat')">Chat</div>
+            <div class="w3-bar-item w3-div title  Goals" onclick="openCity('Goals')">Goals</div>
+            <div class="w3-bar-item w3-div  title Views" onclick="openCity('Views')">Views</div>
+          </div>
+          
+          <div id="Projects & Tasks" class="tab-container city">
+            <div class="box">
+            <h2 style="font-weight:700 ">Learn through top 1% content </h2>
+            <div style="margin-top:10px">On demand videos from top 1% menotrs of the industry</div>
+            <div class="button" style="width:250px;margin:auto; margin-top:30px">Get Started</div>
+        </div>
+          </div>
+          
+          <div id="Chat" class="tab-container city" style="display:none">
+            
+            <h2>Chat</h2>
+            <p>Chat is the capital of France.</p> 
+          </div>
+          
+          <div id="Goals" class="tab-container city" style="display:none">
+            
+            <h2>Goals</h2>
+            <p>Goals is the capital of Japan.</p>
+          </div>
+          <div id="Views" class="tab-container city" style="display:none">
+            
+            <h2>Views</h2>
+            <p>Goals is the capital of Japan.</p>
+          </div>
+        </section>
+          <script>
+          function openCity(cityName) {
+            console.log(cityName);
+            var i;
+            var x = document.getElementsByClassName("city");
+            var active_bar=document.getElementsByClassName('title');
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none"; 
+              active_bar[i].classList.remove("active-bar");
+            }
+            document.getElementById(cityName).style.display = "block";  
+            var active_section=document.getElementsByClassName(cityName);
+            console.log(active_section)
+            active_section[0].classList.add('active-bar');
+            console.log(active_section)
+          }
+          </script>
+          
         
     
 </body>

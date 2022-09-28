@@ -257,3 +257,29 @@ section{
     }
 
 }
+.w3-bar{
+    display:flex;
+    margin:10px;
+    margin-top:30px;
+}
+.w3-bar-item{
+    margin:10px 0px 10px 15px;
+    font-weight: 600;
+    color:black;
+    cursor:pointer;
+    
+}
+.active-bar{
+    border-bottom:4px solid rgb(71, 174, 71);
+    border-radius: 3px;
+}
+.tab-container{
+   width:250px;
+    margin:10px 8px 10px 20px;
+    padding:5px;
+    box-shadow: 5px  #c6e2ec;
+   
+}
+.box{
+   
+}
