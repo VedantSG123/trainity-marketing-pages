@@ -514,15 +514,9 @@ section{
     border-radius: 3px;
 }
 .tab-container{
-   width:350px;
+   max-width: 400px;
     margin:5px auto;
     padding:10px;
     box-shadow: 5px  #c6e2ec;
    
-}
-.box{
-   margin:5px 10px;
-   padding: 20px;
-   box-shadow: 10px 10px 10px 4px #8dcace;
-   border-radius: 10px;
 }
