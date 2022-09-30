@@ -505,7 +505,7 @@ section{
 }
 .w3-bar{
     display:flex;
-    margin:7px;
+    margin:7px 4px 7px 7px;
     margin-top:30px;
 }
 .w3-bar-item{
