@@ -1,3 +1,7 @@
+*{
+    font-family: Poppins;
+}
+
 section{
     margin:0;
     padding: 0;
@@ -34,7 +38,7 @@ section{
 
 .heade-main-content{
     grid-area: header;
-    padding-right:1rem;
+    padding-right:2rem;
     color: white;
 }
 
@@ -191,7 +195,7 @@ section{
 }
 
 .how{
-    margin-top:2rem;
+    margin-top:5rem;
 }
 
 .how-btn{
@@ -232,6 +236,7 @@ section{
 
 .box{
     padding:1rem !important;
+    background-image:linear-gradient(rgb(241, 249, 253), rgba(224, 242, 249, 0.945));
 }
 
 .process{
@@ -438,7 +443,7 @@ section{
 .buy a{
     color:#FFF;
     background-color: #48BF84;
-    padding:10px 70px;
+    padding:20px 80px;
     border-radius: 6px;
     margin-left: 20px;
     position: relative;
@@ -503,11 +508,16 @@ section{
     margin-top:30px;
 }
 .w3-bar-item{
-    margin:10px 0px 10px 15px;
+    width:30%;
+    height:50%;
     font-weight: 600;
     color:black;
     cursor:pointer;
     
+}
+.Projects{
+    width:70%;
+    height:50%;
 }
 .active-bar{
     border-bottom:4px solid rgb(71, 174, 71);
