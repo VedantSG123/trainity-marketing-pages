@@ -443,7 +443,8 @@ section{
 .buy a{
     color:#FFF;
     background-color: #48BF84;
-    padding:20px 60px;
+    width:400px;
+    padding:20px 40px;
     border-radius: 6px;
     margin-left: 20px;
     position: relative;
