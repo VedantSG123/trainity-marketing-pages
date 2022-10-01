@@ -30,7 +30,8 @@ section {
 
 .home-header {
     background-color: #0D2129;
-
+   padding-left:15px;
+   height:500px;
 }
 
 .head-text {
@@ -64,7 +65,9 @@ section {
 .head-padding {
     padding: 0 2.5rem 3rem;
 }
-
+.more_padding{
+    padding-top:66px;
+}
 .heade-main-content {
     grid-area: header;
     padding-right: 2rem;
@@ -72,11 +75,12 @@ section {
 }
 
 .header-img {
+    margin-right:15px;
     grid-area: home-img;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-   
+    border-radius: 10px;
 }
 
 .green-txt {
@@ -104,8 +108,8 @@ p {
 }
 
 .star-wrapper svg {
-    height: 24px;
-    width: 24px;
+    height: 10px;
+    width: 10px;
 
 }
 
@@ -147,7 +151,7 @@ letter-spacing: 0.03em;
 
 
 .top-btn {
-
+   
     transform: translateY(-50%);
     text-align: center;
 }
@@ -235,7 +239,7 @@ letter-spacing: 0.03em;
 }
 
 .how {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .how-btn {
@@ -246,7 +250,7 @@ letter-spacing: 0.03em;
 
 .how-btn a {
     color: #FFF;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     background-color: #0D2129;
     border-radius: 4px;
 }
@@ -426,9 +430,14 @@ letter-spacing: 0.03em;
 }
 
 .reviewer-name {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #000;
+    font-weight: 500;
+font-size: 20px;
+line-height: 172%;
+/* or 34px */
+
+letter-spacing: 0.03em;
+
+color: #000000;
 }
 
 .rating-container {
@@ -438,6 +447,14 @@ letter-spacing: 0.03em;
 
 .comment {
     margin-top: 1rem;
+    font-weight: 400;
+font-size: 18px;
+line-height: 156.5%;
+/* or 28px */
+
+letter-spacing: 0.03em;
+
+color: rgba(18, 18, 18, 0.8);
 }
 
 .helpful-container {
