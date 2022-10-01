@@ -36,11 +36,11 @@ section {
 .head-text {
 
   
-    height: 80px;
+   
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    
     line-height: 140.5%;
     /* or 45px */
 
@@ -50,13 +50,12 @@ section {
 }
 
 .p-text {
-    margin-top:70px;
+    margin-top:10px;
     font-family: 'Poppins';
-    width: 440px;
-    height: 56px;
+    
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 172%;
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -117,8 +116,8 @@ p {
 
 .header-dates {
     display: flex;
-    font-weight: 400;
-font-size: 18px;
+    font-weight: 300;
+font-size: 12px;
 line-height: 172%;
 /* identical to box height, or 31px */
 
@@ -182,7 +181,7 @@ letter-spacing: 0.03em;
 .upper-row {
     display: flex;
     width: 100%;
-    margin-top: 1rem;
+    
 }
 
 .upper-row img {
@@ -190,11 +189,13 @@ letter-spacing: 0.03em;
 }
 
 .lower-row {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .profile-role {
-    padding: 0.25rem 1rem;
+    padding: 0.00rem 1rem 0.25rem;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .line {
@@ -209,18 +210,18 @@ letter-spacing: 0.03em;
 
 .tick-box {
     background-color: #48BF84;
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
     color: white;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .tick-box .icon-small {
     font-size: 1rem;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 .program-details {
@@ -506,11 +507,11 @@ letter-spacing: 0.03em;
     }
 
     .head-padding {
-        padding: 0 2.5rem 0rem;
+        padding: 0 18px 22px;
     }
 
     .header-img {
-        margin-top: 0.5rem;
+        margin-top: -1.5rem;
         position: relative;
         top: 2rem;
         justify-content: center;
@@ -530,8 +531,8 @@ letter-spacing: 0.03em;
     }
 
     .head-padding {
-        padding-right: 1.5rem;
-        padding-left: 1.5rem;
+        padding-right: .5rem;
+        padding-left: .5rem;
     }
 
     .about-main {
