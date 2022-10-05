@@ -30,8 +30,8 @@ section {
 
 .home-header {
     background-color: #0D2129;
-   padding:0 15px;
-   height:500px;
+   padding:0 10px;
+   height:450px;
 }
 
 .head-text {
@@ -75,7 +75,7 @@ section {
 }
 
 .header-img {
-    margin-right:15px;
+    padding: 0  1rem;
     grid-area: home-img;
     display: flex;
     align-items: center;
@@ -531,7 +531,7 @@ color: rgba(18, 18, 18, 0.8);
     .header-img {
         margin-top: -1.5rem;
         position: relative;
-        top: 2rem;
+     
         justify-content: center;
         object-fit: contain;
     }
